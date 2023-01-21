@@ -13,11 +13,11 @@ albedo_texture = ExtResource( 4 )
 albedo_texture = ExtResource( 5 )
 
 [node name="starting_tank" instance=ExtResource( 1 )]
-acceleration = 20.0
-rotation_speed = 70.0
+acceleration = 35.0
+rotation_speed = 85.0
 
 [node name="gun" parent="." index="0"]
-rotation_speed = 40.0
+rotation_speed = 55.0
 
 [node name="MeshInstance" parent="gun" index="2"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.10049, 0 )

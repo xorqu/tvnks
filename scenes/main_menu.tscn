@@ -1,0 +1,17 @@
+[gd_scene format=2]
+
+[node name="main_menu" type="Node2D"]
+
+[node name="exit_button" type="Button" parent="."]
+margin_left = 44.0
+margin_top = 108.0
+margin_right = 114.0
+margin_bottom = 128.0
+text = "exit"
+
+[node name="play_button" type="Button" parent="."]
+margin_left = 43.0
+margin_top = 72.0
+margin_right = 113.0
+margin_bottom = 92.0
+text = "play"
