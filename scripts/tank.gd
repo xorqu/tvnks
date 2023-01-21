@@ -12,13 +12,14 @@ func _ready():
 	pass
 
 func move_sound():
+	#звук езды
 	if (int(linear_velocity.x*10) != 0 or int(linear_velocity.y*10) !=0 or angular_velocity.y != 0) and !move_sound.is_playing():
 		move_sound.play(0)
 	if int(linear_velocity.x*10) == 0 and int(linear_velocity.y*10) == 0 and int(angular_velocity.y) == 0 and move_sound.is_playing():
 		move_sound.stop()
 
 func control(delta):
-	
+	#управление
 	if is_on_floor and get_parent().is_in_group('player'):
 		if Input.is_action_pressed("rotate_left"):
 			self.set_angular_velocity(Vector3(0,rotation_speed*delta,0))
@@ -39,6 +40,8 @@ func _physics_process(delta):
 	control(delta)
 	move_sound()
 
+
+#проверка на то, стоит ли танк на земле
 func _on_tank_body_entered(body):
 	is_on_floor = true
 

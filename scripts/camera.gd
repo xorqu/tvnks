@@ -1,6 +1,6 @@
 extends InterpolatedCamera
 
-
+#и ето чтобы камера двигалась нормально
 func _ready():
 	camera_movement.camera = self
 

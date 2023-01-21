@@ -16,6 +16,7 @@ func _ready():
 
 
 func control(delta):
+	#управление и звук
 	if get_parent().get_parent().is_in_group('player'):
 		if Input.is_action_pressed("gun_rotate_left"):
 			self.rotation_degrees.y += rotation_speed * delta

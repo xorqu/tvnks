@@ -1,12 +1,7 @@
 extends Spatial
 
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
+#ето чтобы камера двигалась нормально
 func _ready():
 	$camera.upd_target($player.get_child(0).get_child(0).get_child(0))
 
