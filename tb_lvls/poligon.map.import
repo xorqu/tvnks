@@ -1,0 +1,13 @@
+[remap]
+
+importer="qodot.map"
+type="Resource"
+path="res://.import/poligon.map-bbad8e8fa2eeeeed01de2c8549cf8956.tres"
+
+[deps]
+
+source_file="res://tb_lvls/poligon.map"
+dest_files=[ "res://.import/poligon.map-bbad8e8fa2eeeeed01de2c8549cf8956.tres" ]
+
+[params]
+

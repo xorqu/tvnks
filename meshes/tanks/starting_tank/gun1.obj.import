@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/gun1.obj-1fbb624c9401883cc6e3b545eafe497e.mesh"
+
+[deps]
+
+files=[ "res://.import/gun1.obj-1fbb624c9401883cc6e3b545eafe497e.mesh" ]
+
+source_file="res://meshes/tanks/starting_tank/gun1.obj"
+dest_files=[ "res://.import/gun1.obj-1fbb624c9401883cc6e3b545eafe497e.mesh", "res://.import/gun1.obj-1fbb624c9401883cc6e3b545eafe497e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

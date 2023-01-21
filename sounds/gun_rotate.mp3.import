@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/gun_rotate.mp3-4b01aad8143c88eb7aa28da8487563c9.mp3str"
+
+[deps]
+
+source_file="res://sounds/gun_rotate.mp3"
+dest_files=[ "res://.import/gun_rotate.mp3-4b01aad8143c88eb7aa28da8487563c9.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
